@@ -36,11 +36,6 @@
 		function onDeviceReady() {
 			document.addEventListener("backbutton", onBackKeyDown, false);
 		}
-
-		function onBackKeyDown(e) {
-			e.preventDefault();  
-			goBack(); 
-		}
 		$("div.job1").click(function(){
 			painel.fadeOut(150);
 			minibanner.fadeOut(90);
@@ -103,6 +98,9 @@
 				goBack();
 				ev.preventDefault();
 			}
+		}).on("backbutton", function(ev){
+		ev.preventDefault();
+		goBack();
 		});
 
 	});
