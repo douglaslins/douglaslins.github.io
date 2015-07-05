@@ -98,9 +98,13 @@
 				goBack();
 				ev.preventDefault();
 			}
-		}).on("backbutton", function(ev){
-		ev.preventDefault();
-		goBack();
+		});
+		$(window).on("navigate", function (event, data) {
+			  var direction = data.state.direction;
+			  if (direction == 'back') {
+				goBack();
+				ev.preventDefault();				
+			  }
 		});
 
 	});
