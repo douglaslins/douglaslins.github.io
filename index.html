@@ -105,6 +105,13 @@
 			}
 		});
 
+		$(window).on("navigate", function(ev, data){
+			if (data && data.state && data.state.direction) {
+				if (data.state.direction === "back") {
+				goBack();
+				}
+			}
+		});
 	});
 
 
