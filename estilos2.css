@@ -51,8 +51,8 @@ img.gridline {
 }
 
 div.socialicons {
-	margin-left:48.5%;
-	margin-right:0%;
+	margin-left:34%;
+	margin-right:34%;
 }
 
 
@@ -407,12 +407,6 @@ div.info2 img.barcode-2 {
 width: 100vw;
 }
 
-div.socialicons {
-	margin-left:34%;
-	margin-right:34%;
-}
-
-
 @media (max-width: 396px) {
 	img.perfil2 {
 		display:none;
@@ -421,8 +415,8 @@ div.socialicons {
 
 @media (min-width: 359px) and (max-width: 419px) {
 	div.socialicons {
-		margin-left:60%;
-		margin-right:0%;
+		margin-left:44%;
+		margin-right:39%;
 	}
 }
 
