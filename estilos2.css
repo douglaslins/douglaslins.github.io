@@ -448,6 +448,37 @@ div.info2 img.barcode-2 {
 width: 100vw;
 }
 
+
+@media (max-width: 600px) {
+	div.conteudo p {
+	font-size: 10px;
+	}
+}
+	
+@media (min-width: 601px) and (max-width: 800px) {
+	div.conteudo p {
+	font-size: 11.5px;
+	}
+	img.gridline {
+	display: none;
+	}
+	img.signature {
+	margin-left: 42.2%;
+	margin-right: 0%;
+	}
+	div.socialicons {
+	margin-left: 40.5%;
+	}
+}
+	
+@media (min-width: 801px) and (max-width: 1000px) {
+	div.conteudo p {
+	font-size: 13px;
+	}
+
+}
+
+
 @media (max-width: 396px) {
 	img.perfil2 {
 		display:none;
@@ -736,25 +767,6 @@ width: 100vw;
 
 div.col-md-9 {
 margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-	div.conteudo p {
-	font-size: 10px;
-	}
-}
-	
-@media (min-width: 601px) and (max-width: 800px) {
-	div.conteudo p {
-	font-size: 11.5px;
-	}
-}
-	
-@media (min-width: 801px) and (max-width: 1000px) {
-	div.conteudo p {
-	font-size: 13px;
-	}
-
 }
 
 /*
