@@ -23,7 +23,7 @@
 		var desc9 = $("div.desc9");
 		var desc10 = $("div.desc10");
 		var desc11 = $("div.desc11");
-
+		var desc12 = $("div.desc12");
 		
 		var conteudo = $("div.conteudo");
 		var visible = false;
@@ -110,7 +110,13 @@
 			desc11.show(250);
 			visible = true;
 		});
-
+		$("div.job12").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc12.show(250);
+			visible = true;
+		});
+		
 		$("div.backbutton").click(goBack);
 
 		$(window).keydown(function(ev){
@@ -265,6 +271,17 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-4 quadro-imagem col-xs-6 painel job12">
+						<div  class="bloco-imagem" style="background-image: url('job12.jpg'); background-repeat: none;">
+							<div class="conteudo-imagem">
+								<div class="bloco-texto">
+									<span class="letragrande">F</span><span class="letrapequena">otografia de Estúdio</span>
+									<br><p class="contatos">
+										 Campanha produzida no estúdio fotográfico da Unisinos para uma empresa de chocolates e cafés.<br><br> 2014.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="col-md-4 quadro-imagem col-xs-6 painel job3" style="background-image: url('job5.jpg');">
 						<div class="conteudo-imagem">
 							<div class="bloco-texto">
@@ -302,7 +319,7 @@
 						<img class="whiteline" src="whiteline.png"><br>
 						<div class="descricao"><p class="conteudotexto">
 						O Newsfeed é uma interface para leitura de notícias em formato RSS feito com o uso do Rainmeter - uma ferramenta de customização para o Windows. <br> A ideia geral do Newsfeed é fornecer um conjunto de campos de informação no qual o usuário insere a URL dos serviços de RSS Feed cujas notícias gostaria de ler, precisando apenas clicar um botão em seu desktop para ter uma visualização em tela-cheia das notícias mais recentes dos canais que acompanha. A ideia geral é visualização macro e fácil alternação entre os serviços.						<br><br>
-						<img class="img-desc" src="desc1.jpg">
+						<br><img class="img-desc" src="desc1.jpg">
 						</p></div>
 					</div>
 					<div class="col-md-12 col-xs-12 conteudo desc2">
@@ -313,7 +330,7 @@
 						<div class="descricao"><p class="conteudotexto">
 						Estes launchers foram feitos quando o projeto Gamehall ainda estava em seus estados iniciais, e toda operação de customização era manual. Tendo em mente o uso de emuladores para os consoles Playstation 2, Nintendo GameCube e PSP, estes designs foram concebidos tendo como inspiração os jogos mais populares de cada plataforma, bem como suas apresentações em feiras e conferências.					<br><br>
 						Ao clicar o botão, com a interface projetada no ambiente desktop em formato fullscreen por meio do Rainmeter, o jogo seria carregado instantaneamente.
-						<img class="img-desc" src="desc1a.jpg">
+						<br><img class="img-desc" src="desc1a.jpg">
 						<br>
 						<img class="img-desc" src="desc1b.jpg">
 						<br>
@@ -352,10 +369,12 @@
 						<img class="whiteline" src="whiteline.png"><br>
 						<div class="descricao"><p class="conteudotexto">
 						<img class="img-desc" src="desc4k.png"><br>
-						<iframe width="98%" height="316" src="https://www.youtube.com/embed/9AvD1hwZfuc" frameborder="0" allowfullscreen></iframe>
 						O Gamehall é um launcher de jogos desenvolvido para o Rainmeter - uma ferramenta de customização do Desktop, para o Windows. Diferente da maioria dos projetos desenvolvidos para o Rainmeter, o Gamehall não exige que usuário tenha conhecimento de como alterar as configurações em arquivos INI.
 						<br><br>Em vez disso, ele realiza por si só a configuração, escaneando uma pasta qualquer - à escolha do usuário -, gerando um launcher para cada atalho detectado. <br>
 						<br>O Gamehall então busca pela capa oficial do jogo na internet - com base no nome do atalho - para que possa servir de ícone pro launcher. Cada launcher, é claro, pode ser customizado em questão de clicks.<br>
+						<br>Vídeo:<br>
+						<iframe width="98%" height="316" src="https://www.youtube.com/embed/9AvD1hwZfuc" frameborder="0" allowfullscreen></iframe>
+						<br><br>Wireframes de desenvolvimento:<br>
 						<img class="img-desc" src="desc4a.jpg"><br>
 						<img class="img-desc" src="desc4b.jpg"><br>
 						<img class="img-desc" src="desc4c.jpg"><br>
@@ -366,7 +385,6 @@
 						<img class="img-desc" src="desc4h.jpg"><br>
 						<img class="img-desc" src="desc4i.jpg"><br>
 						<img class="img-desc" src="desc4j.jpg"><br>
-						Vídeo demonstrando o funcionamento do projeto<br>
 						</p></div>
 					</div>
 					<div class="col-md-12 col-xs-12 conteudo desc5">
@@ -451,6 +469,39 @@
 						<img class="img-desc" src="desc11f.jpg"><br>
 						<img class="img-desc" src="desc11g.jpg"><br>
 						<img class="img-desc" src="desc11h.jpg"><br>
+						</p></div>
+					</div>
+					<div class="col-md-12 col-xs-12 conteudo desc12">
+						<div class="backbutton"><span class="backtext"><< BACK</span></div>
+						<div class="titulo"><span class="titulogrande">F</span><span class="titulopequeno">otografia de Estúdio</span>
+						</div>
+						<img class="whiteline" src="whiteline.png"><br>
+						<div class="descricao"><p class="conteudotexto">
+						Trabalho realizado na disciplina de Fotografia Digital do curso de Comunicação Digital da Unisinos, em conjunto com Thiago Scherer, Victor Vieira e Carlos Pivetta.
+						<br><br>
+						<img class="img-desc" src="desc12f.jpg"><br>	
+						<br><br>
+						<span class="oxy">OBJETIVO// </span><br>
+						Desenvolver uma campanha com fotografias que enfoquem os produtos vendidos e consumidos nas lojas do tipo confeitaria/cafeteria de uma empresa de chocolates e cafés. Compreender e capturar a essência dos produtos e aplicá-los na produção de uma campanha para o inverno de 2014.
+						<br><br>
+						<span class="oxy">OBRIGATORIEDADES// </span><br>
+						Utilizar o logo da empresa nas peças finais; <br>
+						Criar uma chamada para a campanha; <br>
+						Não utilizar pessoas, somente produtos. <br><br> 
+						<span class="oxy">CAMPANHA// </span><br>
+						Temporada: 2014<br>
+						Data da reunião: 25/03/2014<br>
+						Data do shoot: 01 e 08/04/2014<br>
+						Data da entrega do job: 22/04/2014<br>
+						<br>
+						<span class="oxy">SHOOT// </span><br>
+						<img class="img-desc" src="desc12a.jpg"><br>
+						<img class="img-desc" src="desc12b.jpg"><br>
+						<img class="img-desc" src="desc12c.jpg"><br>
+						<img class="img-desc" src="desc12d.jpg"><br>
+						<img class="img-desc" src="desc12e.jpg"><br>
+						<img class="img-desc" src="desc12f.jpg"><br>
+						<img class="img-desc" src="desc12g.jpg"><br>
 						</p></div>
 					</div>
 					<div class="col-md-12 col-xs-12 conteudo desc8">
