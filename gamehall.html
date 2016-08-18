@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html><head>
+	<title>Portfólio - Douglas Lins</title>
+	<link rel="stylesheet" href="bootstrap-theme.min.css">
+	<script src='jquery-1.11.3.min.js' type='text/javascript'></script> 
+	<script src="bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="estilos2.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script>
+	$(document).ready(function(){
+
+	    var painel = $("div.painel");
+		var minibanner = $("div.minibanner");
+		var desc1 = $("div.desc1");
+		var desc2 = $("div.desc2");
+		var desc3 = $("div.desc3");
+		var desc4 = $("div.desc4");
+		var desc5 = $("div.desc5");
+		var desc6 = $("div.desc6");
+		var desc7 = $("div.desc7");
+		var desc8 = $("div.desc8");
+		var desc9 = $("div.desc9");
+		var desc10 = $("div.desc10");
+		var desc11 = $("div.desc11");
+		var desc12 = $("div.desc12");
+		
+		var conteudo = $("div.conteudo");
+		var visible = false;
+
+		function goBack() {
+			if(visible) {
+				conteudo.hide(150);
+				painel.fadeIn(450);
+				minibanner.fadeIn(90);
+				visible = false;
+			}
+		}
+		function onDeviceReady() {
+			document.addEventListener("backbutton", onBackKeyDown, false);
+		}
+
+		function onBackKeyDown(e) {
+			e.preventDefault();  
+			goBack(); 
+		}
+		$("div.job1").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc1.show(250);
+			visible = true;
+		});
+		$("div.job2").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc2.show(250);
+			visible = true;
+		});
+		$("div.job3").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc3.show(250);
+			visible = true;
+		});
+		$("div.job4").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc4.show(250);
+			visible = true;
+		});
+		$("div.job5").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc5.show(250);
+			visible = true;
+		});
+		$("div.job6").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc6.show(250);
+			visible = true;
+		});
+		$("div.job7").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc7.show(250);
+			visible = true;
+		});
+		$("div.job8").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc8.show(250);
+			visible = true;
+		});
+		$("div.job9").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc9.show(250);
+			visible = true;
+		});
+		$("div.job10").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc10.show(250);
+			visible = true;
+		});
+		$("div.job11").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc11.show(250);
+			visible = true;
+		});
+		$("div.job12").click(function(){
+			painel.fadeOut(150);
+			minibanner.fadeOut(90);
+			desc12.show(250);
+			visible = true;
+		});
+		
+		$("div.backbutton").click(goBack);
+
+		$(window).keydown(function(ev){
+			if (ev.which === 8) {
+				goBack();
+				ev.preventDefault();
+			}
+		});
+
+		$(window).on("navigate", function(ev, data){
+			if (data && data.state && data.state.direction) {
+				if (data.state.direction === "back") {
+				goBack();
+				}
+			}
+		});
+	});
+
+
+</script>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Oxygen::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+<meta property="og:url"                content="http://douglaslins.github.io" />
+<meta property="og:type"               content="article" />
+<meta property="og:locale"             content="pt_BR" />
+<meta property="og:title"              content="Portfólio - Douglas Lins" />
+<meta property="og:description"        content="Galeria que mostra trabalhos produzidos desde 2012, exibindo projetos pessoais e produções para o curso de Comunicação Digital. Contempla trabalhos de iniciativa própria assim como outros produzidos em grupo." />
+<meta property="og:image"              content="http://i.imgur.com/5Ia5Yj2.jpg" />
+
+  
+</head>
+
+
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="whiteblock">
+					<div class="infos">
+						<!--<img class="barcode" src="http://i.imgur.com/on360wz.jpg" align="right">-->
+						<img class="barcode-2" src="gradbar.jpg" align="right">
+						<span class="letragrande">D</span><span class="letrapequena">ouglas </span><span class="letragrande">L</span><span class="letrapequena">ins</span>
+						<img class="perfil" src="profile.jpg" align="right">
+						<p class="texto1">Comunicação Digital - Unisinos <br> Rio Grande do Sul - Brasil</p>
+						<p class="contatos">Facebook: <a href="https://www.facebook.com/profile.php?id=1369197187">link</a><br> Twitter: <a href="https://www.twitter.com/douglaslins0">douglaslins0</a> <br> Instagram: <a href="https://instagram.com/douglaslins1">douglaslins1</a> <br> Behance: <a href="https://www.behance.net/douglaslins">douglaslins</a></p>
+						<img class="perfil2" src="profile.jpg" align="left">
+					</div>
+					<div class="info2">
+						<!--<img class="barcode" src="http://i.imgur.com/on360wz.jpg" align="right">-->
+						<!--<div class="textoinfo"><span class="letragrande">D</span><span class="letrapequena">ouglas </span><span class="letragrande">L</span><span class="letrapequena">ins </span> <span class="texto1">Comunicação Digital - Unisinos <br> Rio Grande do Sul - Brasil</span></div> 							<span class="contatos">Facebook: <a href="https://www.facebook.com/profile.php?id=1369197187">link</a><br> Twitter: <a href="https://www.twitter.com/douglaslins0">douglaslins0</a> <br> Instagram: <a href="https://instagram.com/douglaslins1">douglaslins1</a> <br> Behance: <a href="https://www.behance.net/douglaslins">douglaslins</a></span>-->
+						<!--<img class="perfil" src="profile.jpg" align="right">
+						<img class="perfil2" src="profile.jpg" align="left">
+						<img class="barcode-2" src="gradbarhoriz.jpg">-->
+						<img class="signature" src="signaturedef.png"><br>
+						<div class="socialicons">
+							<a href="https://www.behance.net/douglaslins"><img class="socialicons" src="behanceicon.png"></a> <a href="https://www.facebook.com/profile.php?id=1369197187"><img class="socialicons" src="faceicon.png"></a> <a href="https://instagram.com/douglaslins1"><img class="socialicons" src="instaicon.png"></a> <a href="https://www.twitter.com/douglaslins0"><img class="socialicons" src="twittericon.png"></a><br>
+						</div>
+						<img class="gridline" src="gradline.png"><br>
+					</div>
+				</div>
+			</div>
+			<!--<div style="background-image: url(../images/test-background.gif); height: 200px; width: 400px; border: 1px solid black;">Example of a DIV element with a background image:</div>-->
+			<!--<div class="col-md-3"><img src="http://i.imgur.com/a5l4pt0.jpg" style="opacity:0.33;filter:alpha(opacity=33);"></div>-->
+			<div class="col-md-9 imagens">
+				<div class="container-fluid">
+					<div class="col-md-12 minibanner">
+						<img src="operamea.jpg">
+					</div>
+									
+					<div class="col-md-12 col-xs-12">
+						<div class="backbutton"><span class="backtext"><< BACK</span></div>
+						<div class="titulo"><span class="titulogrande">G</span><span class="titulopequeno">amehall</span>
+						</div>
+						<img class="whiteline" src="whiteline.png"><br>
+						<div class="descricao"><p class="conteudotexto">
+						<img class="img-desc" src="desc4k.png"><br>
+						O Gamehall é um launcher de jogos desenvolvido para o Rainmeter - uma ferramenta de customização do Desktop, para o Windows. Diferente da maioria dos projetos desenvolvidos para o Rainmeter, o Gamehall não exige que usuário tenha conhecimento de como alterar as configurações em arquivos INI.
+						<br><br>Em vez disso, ele realiza por si só a configuração, escaneando uma pasta qualquer - à escolha do usuário -, gerando um launcher para cada atalho detectado. <br>
+						<br>O Gamehall então busca pela capa oficial do jogo na internet - com base no nome do atalho - para que possa servir de ícone pro launcher. Cada launcher, é claro, pode ser customizado em questão de clicks.<br>
+						<br><span class="oxy">VÍDEO//</span><br>
+						<iframe width="98%" height="316" src="https://www.youtube.com/embed/9AvD1hwZfuc" frameborder="0" allowfullscreen></iframe>
+						<br><br><span class="oxy">DESENVOLVIMENTO//</span><br>
+						<img class="img-desc" src="desc4a.jpg"><br>
+						<img class="img-desc" src="desc4b.jpg"><br>
+						<img class="img-desc" src="desc4c.jpg"><br>
+						<img class="img-desc" src="desc4d.jpg"><br>
+						<img class="img-desc" src="desc4e.jpg"><br>
+						<img class="img-desc" src="desc4f.jpg"><br>
+						<img class="img-desc" src="desc4g.jpg"><br>
+						<img class="img-desc" src="desc4h.jpg"><br>
+						<img class="img-desc" src="desc4i.jpg"><br>
+						<img class="img-desc" src="desc4j.jpg"><br>
+						</p></div>
+					</div>
+					
+
+				</div>
+			</div>
+
+			</div>
+		
+
+	</div>
+
+</body></html>
